@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+/* PALETA DE CORES
+
+#AE3735
+#3360A1
+#5B7B9B
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'insanibu';
+  box-sizing: border-box;
+  
+}
+
+@font-face {
+  font-family: 'insanibu';
+  src: url(/fonte/Insanibu.ttf);
+}
+
+body, html {
+  background-color: #ae3735;
+  height: 100%;
+  width: 100%;
+}
+
+main {  
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+section#conteudo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgb(51, 96, 161);
+  color: white;
+  width: 300px;
+  height: 320px;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+}
+
+section#conteudo h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 4.2em;
+  margin-bottom: 0px;
+
+  transform: rotateY('angle');
+}
+
+section#conteudo p {
+  position: absolute;
+  border: 1px solid black;
+  font-size: 1em;
+  bottom: 62%;
+  left: 68%;
+  border-style: none;
+
+  
+}
+
+div.usuario > input{
+  position: relative;
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px;
+  left: 25px;
+  top: 10px;
+  font-size: .6em;
+  color: #5B7B9B;
+}
+
+div.senha > input{
+  position: relative;
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px;
+  top: 20px;
+  left: 25px;
+  font-size: 0.6em;
+  color: #5B7B9B;
+}
+
+section#conteudo a.es {
+  position: relative;
+  text-decoration: none;
+  color: rgb(39, 61, 83);
+  top: 3px;
+  left: 28px;
+  font-size: 0.5em;
+  text-transform: initial;
+}
+
+section#conteudo a.cd {
+  position: relative;
+  text-decoration: none;
+  color: rgb(39, 61, 83);
+  top: 3px;
+  left: 131px;
+  font-size: 0.5em;
+  text-transform: initial;
+}
+
+img.face{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top:70px;
+  right:55px;
+  margin-left:30px;
+}
+
+img.goog{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top:70px;
+  right: 45px;
+  
+}
